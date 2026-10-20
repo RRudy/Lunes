@@ -33,6 +33,7 @@ public class frmPrueba extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jtxCajaColor = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -44,20 +45,28 @@ public class frmPrueba extends javax.swing.JFrame {
         jtxCajaColor.setBackground(new java.awt.Color(255, 255, 204));
         getContentPane().add(jtxCajaColor, new org.netbeans.lib.awtextra.AbsoluteConstraints(127, 54, 129, 43));
 
-        jButton2.setText("cambia color");
+        jButton2.setText("cambia color 3");
         jButton2.addActionListener(this::jButton2ActionPerformed);
-        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 180, 134, -1));
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 240, 134, -1));
+
+        jButton3.setText("cambia color");
+        jButton3.addActionListener(this::jButton3ActionPerformed);
+        getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 180, 134, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-     jtxCajaColor.setBackground(Color.BLUE);
+     jtxCajaColor.setBackground(Color.GREEN);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -87,6 +96,7 @@ public class frmPrueba extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JTextField jtxCajaColor;
     // End of variables declaration//GEN-END:variables
 }
